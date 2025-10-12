@@ -7,9 +7,19 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
+     label: "I want to know about Image SEO",
+    prompt: "I want to know about Image SEO",
+    icon: "image",
+  },
+  {
+    label: "I want to learn about Site Speed",
+    prompt: "I want to learn about Site Speed",
+    icon: "gauge",
+  },
+  {
+    label: "Where can I learn about meta data",
+    prompt: "Where can I learn about meta data",
+    icon: "tags",
   },
 ];
 
