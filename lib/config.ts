@@ -9,17 +9,17 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "I want to know about Image SEO",
     prompt: "I want to know about Image SEO",
-    icon: "images",
+    icon: "search",
   },
   {
     label: "I want to learn about Site Speed",
     prompt: "I want to learn about Site Speed",
-    icon: "gauge",
+    icon: "search",
   },
   {
     label: "Where can I learn about meta data",
     prompt: "Where can I learn about meta data",
-    icon: "tags",
+    icon: "search",
   },
 ];
 
