@@ -7,9 +7,9 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "I want to know about Image SEO",
-    prompt: "I want to know about Image SEO",
-    icon: "search",
+    label: "Development goal planning",
+    prompt: "I need help articulating a development goal",
+    icon: "arrow",
   },
   {
     label: "I want to learn about Site Speed",
@@ -23,9 +23,9 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Where would you like to start?";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "These are the things I can help you with";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
