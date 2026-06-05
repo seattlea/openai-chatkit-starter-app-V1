@@ -9,17 +9,22 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
     label: "Development goal planning",
     prompt: "I need help articulating a development goal",
-    icon: "arrow",
+    icon: "book-open",
   },
   {
-    label: "I want to learn about Site Speed",
-    prompt: "I want to learn about Site Speed",
-    icon: "search",
+    label: "Development Log — action items, progress, wins, insights, or commitments",
+    prompt: "I need help with creating a Development Log",
+    icon: "calendar",
   },
   {
-    label: "Where can I learn about meta data",
-    prompt: "Where can I learn about meta data",
-    icon: "search",
+    label: "Reflection on a recent workplace or leadership situation",
+    prompt: "I would like to reflect on a recent workplace or leadership situation",
+    icon: "compass",
+  },
+   {
+    label: "Coaching session preparation",
+    prompt: "I need help with preparing for my Coaching session with Anastasia",
+    icon: "agent",
   },
 ];
 
